@@ -17,6 +17,11 @@ class EloService
     const AWAY = 'away';
 
     /**
+     * Constant match differential
+     */
+    const DIFF = 400;
+
+    /**
      * @var MatchEntity
      */
     protected $matchEntity;
@@ -46,7 +51,8 @@ class EloService
      */
     public function computeMatchEloRatings()
     {
-
+        // Elo Rating
+        // (Opponent Rating +/- (DIFF x (Wins - Losses))) / Games
     }
 
 }

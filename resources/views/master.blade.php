@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+@include('partials.header')
+
 <div class="container">
     <div class="content">
         <div class="title">Ladder</div>
     </div>
 </div>
-</body>
-</html>
+
+
+@include('partials.footer')
